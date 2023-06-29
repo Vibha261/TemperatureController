@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital@1&family=Courgette&family=Lobster&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  transition: background 2.5s;
+  text-align: center;
+  align-items: center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(7, 7, 7);
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+  font-weight: 800px;
+}
+.content-body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height: 500px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 25px 25px 50px 20px;
+}
+.display-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.temperature-display{
+  display: flex;
+  border-radius: 50%;
+  color: rgb(10, 10, 10);
+  font-weight: 900;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 4px rgb(14, 13, 13) solid;
+  font-size: 50px;
+}
+.controller-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  color: rgb(54, 35, 35);
+  background-color: rgb(53, 211, 231);
+  border: px rgb(255, 255, 255) solid;
+
+}
+button:hover{
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.neutral{
+  background: url(./neutral.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+.cold{
+  background: url(./cold.webp);
+  background-size: cover;
+  min-height: 100vh;
+  color: black;
+}
+.hot{
+  background: url(./ht.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+}
