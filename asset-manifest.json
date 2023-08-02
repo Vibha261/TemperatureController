@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/TemperatureController/static/css/main.2599fc67.css",
+    "main.js": "/TemperatureController/static/js/main.91e7ef34.js",
+    "static/js/787.d14f324c.chunk.js": "/TemperatureController/static/js/787.d14f324c.chunk.js",
+    "static/media/neutral.jpg": "/TemperatureController/static/media/neutral.0d57348b0f35a107a054.jpg",
+    "static/media/ht.jpeg": "/TemperatureController/static/media/ht.f3fbd8a045883f3fbe32.jpeg",
+    "static/media/cold.webp": "/TemperatureController/static/media/cold.a9e4a4c6a03ab6dc3daf.webp",
+    "index.html": "/TemperatureController/index.html",
+    "main.2599fc67.css.map": "/TemperatureController/static/css/main.2599fc67.css.map",
+    "main.91e7ef34.js.map": "/TemperatureController/static/js/main.91e7ef34.js.map",
+    "787.d14f324c.chunk.js.map": "/TemperatureController/static/js/787.d14f324c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2599fc67.css",
+    "static/js/main.91e7ef34.js"
+  ]
+}
